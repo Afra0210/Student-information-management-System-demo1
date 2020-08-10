@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+}
+body img{
+    width: 100%;
+    height: 100%;
+    position:absolute; 
+    left:0; top:0; 
+    z-index:-1
+}
+
+.adduser {
+    text-align: center;
+    position: absolute;
+    left: 38%;
+    top: 27%;
+    width: 280px;
+    height: 260px;
+    border:1px solidrgb(196, 194, 194);
+    padding: 0px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+.adduser1 {
+    float: left;
+    width: 139px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom:1px solid rgb(138, 134, 134) ;
+    /* border:1px solid rgb(104, 102, 102); */
+    overflow: hidden;
+    position: relative;
+}
+.loginbox {
+    margin-top: 70px;
+    
+}
+.zucebox {
+    margin-top: 70px;
+    display: none;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 30px auto;
+    display: block ;
+    background-color: rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 6px;
+}
+.login2, .zuce2 {
+    width: 240px;
+    height: 40px;
+    margin: 30px auto;
+    line-height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    background-color:  #52d3f0;
+}
+
